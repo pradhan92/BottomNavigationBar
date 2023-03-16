@@ -60,6 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
       ),
+      //page navigation code
       body: 
       selectedIndex == 0 ? const HomePage()
       :selectedIndex == 1 ? const ChartPage()
